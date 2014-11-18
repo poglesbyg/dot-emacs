@@ -1,0 +1,3 @@
+[submodule "site-lisp/buster-snippets"]
+	path = site-lisp/buster-snippets
+	url = https://github.com/magnars/buster-snippets.el.git
