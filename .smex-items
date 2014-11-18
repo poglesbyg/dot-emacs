@@ -2,22 +2,24 @@
 ;; ----- smex-history -----
 (
  eval-buffer
- slime
- shell
- flyspell-buffer
+ list-packages
  package-install
- erc
- toggle-frame-fullscreen
+ customize-group
+ shell
+ slime
+ flyspell-buffer
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 7)
+ (eval-buffer . 19)
  (toggle-frame-maximized . 1)
  (toggle-frame-fullscreen . 1)
- (shell . 2)
+ (shell . 5)
  (erc . 1)
  (slime . 2)
- (package-install . 1)
+ (package-install . 3)
  (flyspell-buffer . 2)
+ (customize-group . 1)
+ (list-packages . 1)
 )

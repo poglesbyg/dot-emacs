@@ -10,31 +10,31 @@
  '(safe-local-variable-values
    (quote
     ((eval font-lock-add-keywords nil
-	   (quote
-	    (("defexamples\\|def-example-group\\| => "
-	      (0
-	       (quote font-lock-keyword-face)))
-	     ("(defexamples[[:blank:]]+\\(.*\\)"
-	      (1
-	       (quote font-lock-function-name-face))))))
+           (quote
+            (("defexamples\\|def-example-group\\| => "
+              (0
+               (quote font-lock-keyword-face)))
+             ("(defexamples[[:blank:]]+\\(.*\\)"
+              (1
+               (quote font-lock-function-name-face))))))
      (eval font-lock-add-keywords nil
-	   (quote
-	    (("defexamples\\|def-example-group\\| => "
-	      (0
-	       (quote font-lock-keyword-face))))))
+           (quote
+            (("defexamples\\|def-example-group\\| => "
+              (0
+               (quote font-lock-keyword-face))))))
      (eval when
-	   (and
-	    (buffer-file-name)
-	    (file-regular-p
-	     (buffer-file-name))
-	    (string-match-p "^[^.]"
-			    (buffer-file-name)))
-	   (emacs-lisp-mode))
+           (and
+            (buffer-file-name)
+            (file-regular-p
+             (buffer-file-name))
+            (string-match-p "^[^.]"
+                            (buffer-file-name)))
+           (emacs-lisp-mode))
      (eval font-lock-add-keywords nil
-	   (quote
-	    (("defexamples\\| => "
-	      (0
-	       (quote font-lock-keyword-face))))))
+           (quote
+            (("defexamples\\| => "
+              (0
+               (quote font-lock-keyword-face))))))
      (encoding . utf-8)))))
 
 (custom-set-faces

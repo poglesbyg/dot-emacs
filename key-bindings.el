@@ -67,7 +67,7 @@
 (global-set-key (kbd "M-i") 'back-to-indentation)
 
 ;; Turn on the menu bar for exploring new modes
-(global-set-key (kbd "C-<f10>") 'menu-bar-mode)
+;;(global-set-key (kbd "C-<f10>") 'menu-bar-mode)
 
 ;; Use shell-like backspace C-h, rebind help to F1
 (define-key key-translation-map [?\C-h] [?\C-?])
@@ -178,7 +178,10 @@
 (global-set-key (kbd "<f1> a") 'apropos)
 
 ;; Should be able to eval-and-replace anywhere.
-(global-set-key (kbd "C-c C-e") 'eval-and-replace)
+;;(global-set-key (kbd "C-c C-e") 'eval-and-replace)
+
+;; Ediprolog
+;;(global-set-key [f10] 'ediprolog-dwim)
 
 ;; Navigation bindings
 (global-set-key [remap goto-line] 'goto-line-with-feedback)
