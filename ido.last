@@ -2,45 +2,55 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/poglesbyg/Documents/Book/" . #("part_3/" 0 6 (face flx-highlight-face)))
- ("/Users/poglesbyg/Documents/" . "Book/")
- ("/Users/poglesbyg/Dev/" . "ruby-stuff/")
- ("/Users/poglesbyg/" . #("Documents/" 0 3 (face flx-highlight-face)))
+ (#("/Users/poglesbyg/Dev/INFO232/" 17 20 (face flx-highlight-face) 21 22 (face flx-highlight-face)) . #("INFO132-Oblig2/" 0 1 (face flx-highlight-face)))
+ ("/Users/poglesbyg/Documents/Book/" . "part_3/")
+ ("/Users/poglesbyg/Documents/" . "DASP106/")
+ ("/Users/poglesbyg/Dev/" . #("INFO232/" 0 1 (face flx-highlight-face)))
+ ("/Users/poglesbyg/" . #("Dev/" 0 3 (face flx-highlight-face)))
  ("/Users/" . "poglesbyg/")
  ("/" . "Users/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- #("/Users/poglesbyg/Documents/Book/part_3/" 17 20 (face flx-highlight-face) 27 32 (face flx-highlight-face) 32 38 (face flx-highlight-face))
+ #("/Users/poglesbyg/Dev/INFO232/INFO132-Oblig2/" 17 20 (face flx-highlight-face) 21 22 (face flx-highlight-face) 29 30 (face flx-highlight-face))
+ #("/Users/poglesbyg/Documents/DASP106/" 17 20 (face flx-highlight-face) 22 23 (face flx-highlight-face))
  "/Users/poglesbyg/.emacs.d/"
+ "/Users/poglesbyg/Documents/Book/part_3/"
  "/Users/poglesbyg/Dev/ruby-stuff/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "listening_to_her_music.md"
+ "oblig2.pl"
+ "daspHomeExam.text"
  "init.el"
+ "mode-mappings.el"
+ "listening_to_her_music.md"
  ".#listening_to_her_music.rtf"
  "listening_to_her_music.rtf"
- "mode-mappings.el"
  "ex1.rb"
  "mac.el"
  "key-bindings.el"
- "custom.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/Users/poglesbyg/Documents/Book/part_3/" 17 20 (face flx-highlight-face) 27 32 (face flx-highlight-face) 32 38 (face flx-highlight-face)) (21610 36238 0 0) "yoga_girl.rtf" "wasting_sunday.rtf" "waking_up.rtf" "training_at_baran.rtf" "the_poke.rtf" "sore_wednesday.rtf" "sleeping_patterns.rtf" "rebounded.rtf" "rainy_sunday.rtf" "monday_at_the_reading_hall.rtf" "listening_to_her_music.md" "in_the_station_again.rtf" "hung_over_sunday.rtf" "friday_evening.rtf" "drunk_day_after_halloween.rtf" "down_the_rabbit_hole.rtf" "done_with_laundry.rtf" "blom.rtf" "a_writer.rtf" "a_situation.rtf" "a_hole.rtf" "a_good_man.rtf" "a_book.rtf" "#listening_to_her_music.rtf#" "../" "./")
+ (#("/Users/poglesbyg/Dev/INFO232/INFO132-Oblig2/" 17 20 (face flx-highlight-face) 21 22 (face flx-highlight-face) 29 30 (face flx-highlight-face)) (21608 56860 0 0) "stedsinfo.txt" "reiseruter-2.txt" "oblig_hvetle.pl" "oblig2.pl" "oblig-2.pdf" "lesFil.pl" "astar.pl" "../" "./")
 
- ("/Users/poglesbyg/.emacs.d/" (21610 36325 0 0) "var/" "themes/" "snippets/" "smex-items" "site-lisp/" "setup-yasnippet.el" "setup-skewer.el" "setup-shell.el" "setup-ruby-mode.el" "setup-rgrep.el" "setup-perspective.el" "setup-paredit.el" "setup-package.el" "setup-org.el" "setup-mu4e.el" "setup-markdown-mode.el" "setup-magit.el" "setup-js2-mode.el" "setup-ido.el" "setup-html-mode.el" "setup-hippie.el" "setup-flycheck.el" "setup-ffip.el" "setup-elnode.el" "setup-dired.el" "setup-clojure-mode.el" "sane-defaults.el" "recentf" "README.md" "project-archetypes/" "my-misc.el" "mode-mappings.el" "mac.el" "key-bindings.el" "init.el" "ido.last" "history" "elpa/" "defuns/" "custom.el" "backups/" "auto-save-list/" "appearance.el" ".smex-items" ".places" ".gitmodules" ".git/" ".DS_Store" "../" "./")
+ (#("/Users/poglesbyg/Dev/INFO232/" 17 20 (face flx-highlight-face) 21 22 (face flx-highlight-face)) (21602 11610 0 0) "work.pl" "tutorial.pl" "something.prolog" "something.pl" "search.pl" "schedule.pl~" "schedule.pl" "oppgavesett4.pl" "oppgavesett3.pl" "oppgavesett2.pl" "oblig1/" "knowledgeBase5.pl" "knowledgeBase4.pl" "knowledgeBase3.pl" "knowledgeBase2.pl" "knowledgeBase1.pl~" "knowledgeBase1.pl" "INFO132-Oblig2/" "crossword.pl" "coloring_map.pl~" "coloring_map.pl" "chapter3.pl" "chapter2.pl" "chapter1.pl~" "chapter1.pl" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/poglesbyg/Documents/DASP106/" (21611 17889 0 0) "Summarytests.pdf" "ExamData1.txt" "ExamData1.RData" "daspHomeExam.text" "DASP106TextBook.pdf" "dasp106P3.txt" "dasp106P2.txt" "DASP106_hjemmeeksamen_h2014.pdf" "219627-DASP106.pdf" "219627-DASP106.docx" ".git/" ".#*shell*" "#*shell*#" "../" "./")
+
+ (#("/Users/poglesbyg/Documents/" 17 20 (face flx-highlight-face) 22 23 (face flx-highlight-face)) (21610 40304 0 0) "Microsoft User Data/" "DASP106/" "CVPaulGrant.pdf" "CVPaulGrant.docx" "CVKB.pdf" "CVBaran.pdf" "CVBaran.docx" "Book/" "BaranPDF.pdf" "Baran.docx" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/poglesbyg/.emacs.d/" (21611 3378 0 0) "var/" "themes/" "snippets/" "smex-items" "site-lisp/" "setup-yasnippet.el" "setup-skewer.el" "setup-shell.el" "setup-ruby-mode.el" "setup-rgrep.el" "setup-perspective.el" "setup-paredit.el" "setup-package.el" "setup-org.el" "setup-mu4e.el" "setup-markdown-mode.el" "setup-magit.el" "setup-js2-mode.el" "setup-ido.el" "setup-html-mode.el" "setup-hippie.el" "setup-flycheck.el" "setup-ffip.el" "setup-elnode.el" "setup-dired.el" "setup-clojure-mode.el" "sane-defaults.el" "recentf" "README.md" "project-archetypes/" "my-misc.el" "mode-mappings.el" "mac.el" "key-bindings.el" "init.el" "ido.last" "history" "elpa/" "defuns/" "custom.el" "backups/" "auto-save-list/" "appearance.el" ".smex-items" ".places" ".gitmodules" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/poglesbyg/" (21611 3154 0 0) "quicklisp.lisp.asc" "quicklisp.lisp" "quicklisp/" "Public/" "Pictures/" "node_modules/" "New Unity Project/" "Music/" "Movies/" "Library/" "go/" "Downloads/" "Documents/" "Dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".wapi/" ".viminfo" ".Trash/" ".swipl-dir-history/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".scala_history" ".sbclrc" ".saves/" ".rvm/" ".rnd" ".Rhistory" ".RData" ".Rapp.history" ".python_history" ".psql_history" ".profile" ".overtone/" ".npm/" ".node-gyp/" ".meteorsession" ".meteor/" ".m2/" ".local/" ".lein/" ".irssi/" ".hy-history" ".gnupg/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
+
+ ("/Users/poglesbyg/Documents/Book/part_3/" (21610 36238 0 0) "yoga_girl.rtf" "wasting_sunday.rtf" "waking_up.rtf" "training_at_baran.rtf" "the_poke.rtf" "sore_wednesday.rtf" "sleeping_patterns.rtf" "rebounded.rtf" "rainy_sunday.rtf" "monday_at_the_reading_hall.rtf" "listening_to_her_music.md" "in_the_station_again.rtf" "hung_over_sunday.rtf" "friday_evening.rtf" "drunk_day_after_halloween.rtf" "down_the_rabbit_hole.rtf" "done_with_laundry.rtf" "blom.rtf" "a_writer.rtf" "a_situation.rtf" "a_hole.rtf" "a_good_man.rtf" "a_book.rtf" "#listening_to_her_music.rtf#" "../" "./")
 
  ("/Users/poglesbyg/Documents/Book/" (21578 50014 0 0) "README.md" "part_3/" "part_2/" "part_1/" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/poglesbyg/Documents/" (21610 5292 0 0) "Microsoft User Data/" "daspHomeExam.text" "CVPaulGrant.pdf" "CVPaulGrant.docx" "CVKB.pdf" "CVBaran.pdf" "CVBaran.docx" "Book/" "BaranPDF.pdf" "Baran.docx" ".localized" ".DS_Store" "../" "./")
-
- ("/Users/poglesbyg/" (21610 29159 0 0) "quicklisp.lisp.asc" "quicklisp.lisp" "quicklisp/" "Public/" "Pictures/" "node_modules/" "New Unity Project/" "Music/" "Movies/" "Library/" "go/" "Downloads/" "Documents/" "Dev/" "Desktop/" "Applications/" ".zshrc" ".zlogin" ".wapi/" ".viminfo" ".Trash/" ".swipl-dir-history/" ".subversion/" ".ssh/" ".slime-history.eld" ".slime/" ".scala_history" ".sbclrc" ".saves/" ".rvm/" ".rnd" ".Rhistory" ".RData" ".Rapp.history" ".python_history" ".psql_history" ".profile" ".overtone/" ".npm/" ".node-gyp/" ".meteorsession" ".meteor/" ".m2/" ".local/" ".lein/" ".irssi/" ".hy-history" ".gnupg/" ".gitconfig" ".gem/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc" ".bash_profile" ".bash_history" ".android/" "../" "./")
 
  ("/Users/poglesbyg/.emacs.d/elpa/" (21610 28328 0 0) "yasnippet-20141117.327/" "whitespace-cleanup-mode-20140820.128/" "wgrep-20141016.1656/" "visual-regexp-20140926.408/" "tagedit-20141021.2139/" "starter-kit-bindings-20120101.1955/" "starter-kit-20130904.1547/" "smex-20141027.245/" "smartparens-20141107.1100/" "smart-forward-20140430.13/" "slime-20141117.651/" "simple-httpd-20140908.1908/" "s-20140910.334/" "restclient-20141007.1041/" "queue-0.1.1/" "prodigy-20141109.252/" "popwin-20140902.1727/" "popup-20141002.320/" "pkg-info-20140610.630/" "perspective-20141114.1656/" "pcache-20131201.1159/" "paredit-20140128.1248/" "pager-default-keybindings-20130719.1357/" "pager-20100330.1131/" "nodejs-repl-20130520.842/" "multiple-cursors-20141026.503/" "multifiles-20130615.1433/" "move-text-20140307.1644/" "magit-20141115.1601/" "logito-20120225.1255/" "jump-char-20140918.1934/" "ido-vertical-mode-20140516.1920/" "ido-ubiquitous-20140904.1547/" "ido-at-point-20140416.656/" "idle-highlight-mode-20120920.948/" "htmlize-20130207.1202/" "highlight-escape-sequences-20130531.1512/" "guide-key-20140828.807/" "groovy-mode-201203310931/" "gitignore-mode-20140605.520/" "gitconfig-mode-20140605.520/" "git-rebase-mode-20140928.1547/" "git-messenger-20140923.738/" "git-commit-mode-20141014.1634/" "gist-20140706.1503/" "gh-20140706.1506/" "flycheck-20141117.1029/" "flx-ido-20140821.2033/" "flx-20140921.739/" "find-file-in-project-20140603.1619/" "f-20140828.716/" "expand-region-20141115.1025/" "exec-path-from-shell-20140731.907/" "epl-20140823.609/" "elisp-slime-nav-20140619.254/" "eh-keybindings-0.0.1/" "eh-functions-0.0.1/" "datomic-snippets-20130707.1315/" "dash-2.9.0/" "css-eldoc-20140128.2337/" "clojure-mode-20141101.1/" "cider-20141116.1221/" "change-inner-20130208.1130/" "browse-kill-ring-20141104.1240/" "archives/" "angular-snippets-20140513.2223/" "../" "./")
 

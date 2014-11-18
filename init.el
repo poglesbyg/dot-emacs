@@ -191,4 +191,18 @@
 ;; Conclude init by setting up specifics for the current user
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
+
+;; spell checking
 (flyspell-mode)
+
+;; sbcl lisp and slime
+;(setq inferior-lisp-program "/usr/local/bin/sbcl")
+;(add-to-list 'load-path "/Users/poglesbyg/.emacs.d/elpa/slime-20141117.651")
+;(require 'slime)
+;(slime-setup '(slime-fancy))
+
+(setq auto-mode-alist
+      (cons (cons "\\.pl" 'prolog-mode)
+            auto-mode-alist))
+(require 'ediprolog)
+(global-set-key "\C-c\C-e" 'ediprolog-dwim)

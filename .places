@@ -1,7 +1,12 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/poglesbyg/.emacs.d/defuns/buffer-defuns.el" . 1731)
- ("/Users/poglesbyg/.emacs.d/recentf" . 378)
- ("/Users/poglesbyg/.emacs.d/init.el" . 5239)
+(("/Users/poglesbyg/Documents/DASP106/*shell*" . 2715)
+ ("/Users/poglesbyg/Documents/DASP106/daspHomeExam.text" . 1182)
+ ("/Users/poglesbyg/.emacs.d/init.el" . 6609)
+ ("/Users/poglesbyg/Dev/INFO232/INFO132-Oblig2/oblig2.pl" . 83)
+ ("/Users/poglesbyg/.emacs.d/recentf" . 733)
+ ("/Users/poglesbyg/.emacs.d/elpa/ediprolog-1.0/ediprolog-autoloads.el" . 2206)
+ ("/Users/poglesbyg/.emacs.d/mode-mappings.el" . 3893)
+ ("/Users/poglesbyg/.emacs.d/defuns/buffer-defuns.el" . 1731)
  ("/Users/poglesbyg/.emacs.d/elpa/exec-path-from-shell-20140731.907/exec-path-from-shell-autoloads.el" . 1252)
  ("/Users/poglesbyg/.emacs.d/elpa/"
   (dired-filename . "/Users/poglesbyg/.emacs.d/elpa/archives"))

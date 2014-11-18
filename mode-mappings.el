@@ -103,9 +103,4 @@
 (add-to-list 'auto-mode-alist '("access\\.conf\\'" . apache-mode))
 (add-to-list 'auto-mode-alist '("sites-\\(available\\|enabled\\)/" . apache-mode))
 
-(setq inferior-lisp-program "/usr/local/bin/sbcl")
-(add-to-list 'load-path "/Users/poglesbyg/.emacs.d/elpa/slime-20141117.651")
-(require 'slime)
-(slime-setup '(slime-fancy))
-
 (provide 'mode-mappings)

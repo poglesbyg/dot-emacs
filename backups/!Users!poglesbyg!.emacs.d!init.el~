@@ -6,16 +6,16 @@
 ;; No splash screen please ... jeez
 (setq inhibit-startup-message t)
 
-;;(require 'package)
-;;(add-to-list 'package-archives
-;;  	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
-;;(add-to-list 'package-archives
-;;  	     '("tromey" . "http://tromey.com/elpa/") t)
-;;(add-to-list 'package-archives
-;;  	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
-;;(package-initialize)
-;;(when (not package-archive-contents)
-;;  (package-refresh-contents))
+(require 'package)
+(add-to-list 'package-archives
+  	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(add-to-list 'package-archives
+  	     '("tromey" . "http://tromey.com/elpa/") t)
+(add-to-list 'package-archives
+  	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(package-initialize)
+(when (not package-archive-contents)
+  (package-refresh-contents))
 
 ;; Set path to dependencies
 (setq site-lisp-dir
@@ -192,3 +192,11 @@
 (when (file-exists-p user-settings-dir)
   (mapc 'load (directory-files user-settings-dir nil "^[^#].*el$")))
 
+;; spell checking
+(flyspell-mode)
+
+;; sbcl lisp and slime
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+(add-to-list 'load-path "/Users/poglesbyg/.emacs.d/elpa/slime-20141117.651")
+(require 'slime)
+(slime-setup '(slime-fancy))
